@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>澳门威尼斯人 · 杂志专题</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f9f5f1;
+            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+            color: #2e2a26;
+            line-height: 1.7;
+            padding: 0 20px;
+        }
+
+        .page {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 40px 0 60px;
+        }
+
+        /* 首页横幅 */
+        .hero {
+            margin-bottom: 48px;
+            border-bottom: 1px solid #d6cec3;
+            padding-bottom: 32px;
+        }
+
+        .hero .label {
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #9a8c7d;
+            margin-bottom: 8px;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: #3f362e;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            color: #5f5549;
+            max-width: 640px;
+        }
+
+        /* 背景说明块 — 杂志引用风格 */
+        .background-note {
+            background: #f0ebe4;
+            padding: 24px 28px;
+            margin-bottom: 44px;
+            border-left: 4px solid #b3a086;
+            font-style: normal;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .background-note p {
+            font-size: 1rem;
+            color: #3f362e;
+        }
+
+        .background-note strong {
+            font-weight: 600;
+            color: #2c241e;
+        }
+
+        /* 三段正文 */
+        .article-section {
+            margin-bottom: 40px;
+        }
+
+        .article-section h2 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            border-bottom: 1px solid #d6cec3;
+            padding-bottom: 6px;
+            margin-bottom: 18px;
+            color: #3f362e;
+            letter-spacing: 0.5px;
+        }
+
+        .article-section p {
+            margin-bottom: 1.2em;
+            font-size: 1rem;
+        }
+
+        .article-section .pull-quote {
+            background: #f4efe9;
+            padding: 20px 24px;
+            margin: 24px 0;
+            border-radius: 2px;
+            font-size: 0.98rem;
+            color: #4c4238;
+            border: 1px solid #ddd4c9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+
+        /* 页尾访问提示 */
+        .site-footer {
+            margin-top: 50px;
+            padding-top: 28px;
+            border-top: 1px solid #d6cec3;
+            font-size: 0.95rem;
+            color: #5f5549;
+            text-align: left;
+        }
+
+        .site-footer a {
+            color: #7a6b5b;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #bfb2a2;
+            font-weight: 500;
+        }
+
+        .site-footer a:hover {
+            color: #3f362e;
+            text-decoration-color: #3f362e;
+        }
+
+        .footer-note {
+            display: inline-block;
+            background: #eee7df;
+            padding: 10px 18px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            color: #4f453b;
+            margin-top: 16px;
+        }
+
+        /* FAQ 摘要（轻量） */
+        .faq-mini {
+            margin-top: 44px;
+            padding: 20px 24px;
+            background: #f6f1eb;
+            border-radius: 6px;
+        }
+
+        .faq-mini h3 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #3f362e;
+            margin-bottom: 12px;
+            letter-spacing: 0.3px;
+        }
+
+        .faq-mini .qa {
+            margin-bottom: 10px;
+        }
+
+        .faq-mini .qa strong {
+            font-weight: 600;
+            color: #3f362e;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .faq-mini .qa span {
+            color: #5f5549;
+        }
+
+        /* 响应式细节 */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .background-note {
+                padding: 18px 20px;
+            }
+            .article-section h2 {
+                font-size: 1.2rem;
+            }
+            .page {
+                padding: 24px 0 40px;
+            }
+            .faq-mini {
+                padding: 16px 18px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            body {
+                padding: 0 12px;
+            }
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <!-- 首页横幅 -->
+    <div class="hero">
+        <div class="label">杂志专题 · 城市指南</div>
+        <h1>澳门威尼斯人</h1>
+        <p>水城意象与东方都会的融合，一座让人停驻的综合度假地。从大运河购物中心到套房里的提拉米苏香气，这里不只是酒店，更像一个微型城邦。</p>
+    </div>
+
+    <!-- 背景说明 -->
+    <div class="background-note">
+        <p><strong>关于本站 · 快速识别</strong> — 你正在浏览的是 <strong>portal-venetian.com</strong>，一个围绕澳门威尼斯人整合实用信息与场景感受的独立站点。没有浮夸的促销，只有对空间、氛围与细节的真实记录。如果你想快速判断这个网站是否对你有用，下面的三段介绍或许能帮你建立初步印象。</p>
+    </div>
+
+    <!-- 三段自然介绍 -->
+    <div class="article-section">
+        <h2>一、并非复制威尼斯，而是再造一种漫游感</h2>
+        <p>很多人第一次走进澳门威尼斯人，会被室内的运河、拱桥和天幕吸引。但真正让这里区别于其他大型度假村的，是那种从容的迷路感——你可以在圣马可广场式的回廊里闲逛，偶然发现一间卖手工面具的小铺，或者在一家不起眼的咖啡馆坐下来，看贡多拉船夫哼着咏叹调划过。</p>
+        <p>它不试图复制意大利，而是提取了“漫游”这个核心体验。对于第一次来访的旅客，与其对着地图找方向，不如先让自己沉浸在这种松散的空间节奏里。</p>
+        <div class="pull-quote">
+            “这里的贡多拉船夫不总是唱歌，但当你抬头看到穹顶的壁画，会短暂忘记自己身在澳门。”
+        </div>
+    </div>
+
+    <div class="article-section">
+        <h2>二、三天两夜，能装下多少种场景？</h2>
+        <p>如果你是带着家人或朋友一起来，时间安排上可以很弹性。白天，可以在大运河购物中心里走走，品牌从快时尚到奢侈品都有，但不必有购物压力——仅仅是看橱窗和建筑细节就足够有趣。午后，到户外泳池边翻几页书，或者预约一场水疗。</p>
+        <p>傍晚是这里最有魅力的时刻：灯光逐渐亮起，室内运河的水面映出暖黄色倒影。金沙城和巴黎人就在步行范围内，但很多人更愿意留在威尼斯人的某家餐厅里，慢慢吃完一顿晚餐。这里中餐、意餐、日料选择都不少，丰俭由人。</p>
+    </div>
+
+    <div class="article-section">
+        <h2>三、你会在什么情况下想起它？</h2>
+        <p>也许是计划一次周末短途旅行，不想太折腾，又希望住得有特色；也许是工作需要去澳门参加活动，顺便体验一下综合度假村的配套；又或者只是单纯好奇，那个总在社交媒体上出现的室内运河，实际到底怎么样。</p>
+        <p>这个网站整理的内容，尽量贴近这些真实的使用场景。如果想进一步了解具体设施、交通或房型信息，直接浏览 <a href="https://portal-venetian.com">澳门威尼斯人</a> 的页面就好——信息都在那里，按你的节奏慢慢看。</p>
+    </div>
+
+    <!-- 页尾访问提示 -->
+    <div class="site-footer">
+        <p>本专题属于独立整理，不代替官方渠道。若你需要查看最新房态、餐饮菜单或活动安排，建议直接参考度假村官方发布。</p>
+        <div class="footer-note">
+            ⚲ 访问 portal-venetian.com · 从任意页面开始探索
+        </div>
+    </div>
+
+    <!-- FAQ 摘要（轻量） -->
+    <div class="faq-mini">
+        <h3>快速了解：几个常见问题</h3>
+        <div class="qa">
+            <strong>这里和澳门威尼斯人酒店是什么关系？</strong>
+            <span>portal-venetian.com 是一个以澳门威尼斯人为主题的信息整合站点，不属于酒店或度假村官方。</span>
+        </div>
+        <div class="qa">
+            <strong>网站上的内容更新及时吗？</strong>
+            <span>我们会定期根据公开信息调整，但具体营业时间、表演安排等仍以现场公示为准。</span>
+        </div>
+        <div class="qa">
+            <strong>可以预订房间或演出票吗？</strong>
+            <span>本站不提供预订服务，但页面中会附上相关官方链接供你参考。</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
